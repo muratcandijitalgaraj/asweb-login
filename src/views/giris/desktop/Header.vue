@@ -13,6 +13,7 @@
       </div>
     </div>
     <img class="sol-bulut" src="../../../assets/giris/sol-bulut.svg" alt="" />
+    <img class="sag-bulut" src="../../../assets/giris/sag-bulut.svg" alt="" />
   </div>
 </template>
 
@@ -173,5 +174,12 @@ export default {};
   position: absolute;
   left: 0;
   top: 83px;
+}
+.sag-bulut {
+  width: auto;
+  height: 183px;
+  position: absolute;
+  top: 3.188rem;
+  right: 0;
 }
 </style>
