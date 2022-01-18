@@ -7,9 +7,9 @@ export default {};
 </script>
 
 <style scoped>
-.bulutlarComponent {
-  /* height:auto;
-    width:100%; */
+/* .bulutlarComponent {
+  height: auto;
+  width: 100%;
   width: 1920px;
   height: 465px;
   left: 0px;
@@ -21,6 +21,6 @@ export default {};
       rgba(51, 165, 223, 0) 58.86%
     ),
     linear-gradient(0deg, #e9f3f9 12.23%, rgba(233, 243, 249, 0) 77.17%),
-    url("/home/sirius/coding/work/asweb-login/src/assets/giris/bulutlar.png");
-}
+    url("../../assets/giris/bulutlar.png");
+} */
 </style>
