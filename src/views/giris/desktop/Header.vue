@@ -14,11 +14,15 @@
     </div>
     <img class="sol-bulut" src="../../../assets/giris/sol-bulut.svg" alt="" />
     <img class="sag-bulut" src="../../../assets/giris/sag-bulut.svg" alt="" />
+    <div class="middlePartContainer">
+      <MiddlePart />
+    </div>
   </div>
 </template>
 
 <script>
-export default {};
+import MiddlePart from "./MiddlePart.vue";
+export default { components: { MiddlePart } };
 </script>
 
 <style scoped>
@@ -182,4 +186,28 @@ export default {};
   top: 3.188rem;
   right: 0;
 }
+/* middle part starts */
+.middlePartContainer {
+  border: 5px solid black;
+  width: 100%;
+  margin-left: 23.188rem;
+}
+/* .middlePart {
+  width: 70%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+.loginPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 </style>
