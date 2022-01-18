@@ -1,14 +1,16 @@
 <template>
   <div class="headerComponent">
-    <div class="logoContainer">
-      <div class="logo">
-        <img class="logoImg" src="../../../assets/giris/logo.svg" alt="" />
+    <div class="container">
+      <div class="logoContainer">
+        <div class="logo">
+          <img class="logoImg" src="../../../assets/giris/logo.svg" alt="" />
+        </div>
+        <div class="islemler">ONLINE İŞLEMLER</div>
       </div>
-      <div class="islemler">ONLINE İŞLEMLER</div>
-    </div>
-    <div class="signupContainer">
-      <div class="signupPara">Henüz üye değil misiniz?</div>
-      <button class="signupBtn"><div class="btnPara">Kayıt Olun</div></button>
+      <div class="signupContainer">
+        <div class="signupPara">Henüz üye değil misiniz?</div>
+        <button class="signupBtn"><div class="btnPara">Kayıt Olun</div></button>
+      </div>
     </div>
   </div>
 </template>
@@ -19,15 +21,35 @@ export default {};
 
 <style scoped>
 .headerComponent {
+  width: 100%;
+  height: 465px;
+
+  background: linear-gradient(
+      180deg,
+      #33a5df 16.85%,
+      rgba(51, 165, 223, 0) 58.86%
+    ),
+    linear-gradient(0deg, #e9f3f9 12.23%, rgba(233, 243, 249, 0) 77.17%),
+    url("../../../assets/giris/bulutlar.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+}
+.container {
   width: 70%;
-  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding-top: 1.875rem;
+  /* border: 1px solid red; */
 }
 .logoContainer {
+  /* border: 1px solid red; */
+  height: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   /* justify-content: center;
@@ -71,6 +93,7 @@ export default {};
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: auto;
   width: auto;
 }
 .signupPara {
