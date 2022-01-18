@@ -12,6 +12,7 @@
         <button class="signupBtn"><div class="btnPara">Kayıt Olun</div></button>
       </div>
     </div>
+    <img class="sol-bulut" src="../../../assets/giris/sol-bulut.svg" alt="" />
   </div>
 </template>
 
@@ -26,12 +27,13 @@ export default {};
 
   background: url("../../../assets/giris/bulutlar.png");
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  /* border: 1px solid red; */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
 }
 .container {
+  /* border: 1px solid black; */
   width: 70%;
   display: flex;
   flex-direction: row;
@@ -160,5 +162,16 @@ export default {};
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
+}
+.sol-bulut {
+  /* border: 1px solid red; */
+  width: auto;
+  height: 183px;
+  margin-bottom: 100%;
+  /* justify-self: flex-start; */
+  /* align-self: flex-start; */
+  position: absolute;
+  left: 0;
+  top: 83px;
 }
 </style>
