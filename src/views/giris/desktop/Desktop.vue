@@ -14,7 +14,7 @@ export default { components: { Header } };
   /* height: 100%;
   width: 100%; */
   background: #e5e5e5;
-  width: 1920px;
+  width: 100%;
   height: 465px;
   left: 0px;
   top: 0px;
@@ -26,5 +26,8 @@ export default { components: { Header } };
     ),
     linear-gradient(0deg, #e9f3f9 12.23%, rgba(233, 243, 249, 0) 77.17%),
     url("../../../assets/giris/bulutlar.png");
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 </style>
