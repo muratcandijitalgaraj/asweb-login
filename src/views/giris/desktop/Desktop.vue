@@ -13,6 +13,6 @@ export default { components: { Header } };
 .desktopComponent {
   height: 100%;
   width: 100%;
-  background: #e5e5e5;
+  background: #e9f3f9;
 }
 </style>

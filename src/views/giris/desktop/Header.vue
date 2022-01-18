@@ -24,13 +24,7 @@ export default {};
   width: 100%;
   height: 465px;
 
-  background: linear-gradient(
-      180deg,
-      #33a5df 16.85%,
-      rgba(51, 165, 223, 0) 58.86%
-    ),
-    linear-gradient(0deg, #e9f3f9 12.23%, rgba(233, 243, 249, 0) 77.17%),
-    url("../../../assets/giris/bulutlar.png");
+  background: url("../../../assets/giris/bulutlar.png");
   display: flex;
   flex-direction: row;
   justify-content: center;
