@@ -9,6 +9,10 @@
 </template>
 
 <style>
+@font-face {
+  font-family: Nunito Sans;
+  src: url("./assets/fonts/NunitoSans-Regular.ttf");
+}
 html,
 body,
 div,
@@ -115,7 +119,7 @@ q {
   quotes: "" "";
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nunito Sans, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

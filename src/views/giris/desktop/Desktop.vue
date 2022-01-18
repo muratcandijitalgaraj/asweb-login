@@ -1,9 +1,12 @@
 <template>
-  <div class="desktopComponent"></div>
+  <div class="desktopComponent">
+    <Header />
+  </div>
 </template>
 
 <script>
-export default { components: {} };
+import Header from "./Header.vue";
+export default { components: { Header } };
 </script>
 
 <style scoped>
