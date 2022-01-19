@@ -188,9 +188,9 @@ export default { components: { MiddlePart } };
 }
 /* middle part starts */
 .middlePartContainer {
-  border: 5px solid black;
-  width: 100%;
-  margin-left: 23.188rem;
+  margin-top: 10em;
+  /* border: 5px solid black; */
+  width: 70%;
 }
 /* .middlePart {
   width: 70%;
