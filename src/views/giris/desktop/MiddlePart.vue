@@ -26,7 +26,13 @@
       </div>
       <button class="tamamBtn">Tamam</button>
     </div>
-    <div>LOLOLO</div>
+    <div class="carouselPart">
+      <img
+        class="imageGroup-1"
+        src="../../../assets/giris/imageGroup-1.svg"
+        alt=""
+      />
+    </div>
   </div>
 </template>
 
@@ -47,6 +53,7 @@ export default {};
   justify-self: flex-start;
   align-self: flex-start;
 }
+
 .loginPart {
   width: 29.25rem;
   display: flex;
@@ -201,5 +208,21 @@ export default {};
 
   border: none;
   margin-top: 19px;
+}
+.carouselPart {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* border: 5px solid blue; */
+  padding-right: 5em;
+}
+.imageGroup-1 {
+  width: auto;
+  height: auto;
+  /* border: 2px solid red; */
+  /* justify-self: flex-end; */
 }
 </style>
