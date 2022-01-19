@@ -8,11 +8,19 @@
       <!-- space between here -->
       <div class="inputChoices">
         <div class="hatirlaGroup">
-          <div class="hatirlaLogo"></div>
+          <img
+            src="../../../assets/giris/check-dolu.svg"
+            alt=""
+            class="hatirlaLogo"
+          />
           <div class="hatirlaText">Beni Hatırla</div>
         </div>
         <div class="unuttumGroup">
-          <div class="unuttumLogo"></div>
+          <img
+            class="unuttumLogo"
+            src="../../../assets/giris/flash-circle-1.svg"
+            alt=""
+          />
           <div class="unuttumText">Şifremi Unuttum</div>
         </div>
       </div>
@@ -113,19 +121,85 @@ export default {};
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin-top: 20px;
 }
-/* .hatirlaGroup {
+.hatirlaGroup {
+  width: auto;
   height: auto;
-
-  border: 1px solid black;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: center;
 }
 .unuttumGroup {
+  width: auto;
+  height: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-items: center;
 }
+.hatirlaLogo {
+  width: auto;
+  height: auto;
+  margin-right: 7px;
+}
+.unuttumLogo {
+  width: auto;
+  height: auto;
+  margin-right: 7px;
+}
+.hatirlaText {
+  /* padding-top: 2em; */
+}
+
 .unuttumText {
-  align-self: flex-end;
-  border: 1px solid green;
-} */
+}
+.tamamBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 11px;
+
+  width: 468px;
+  height: 50px;
+
+  /* Turuncu */
+
+  background: #ff8038;
+  border-radius: 6px;
+
+  /* buton-text-orta */
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 110%;
+  /* identical to box height, or 18px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Beyaz */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+
+  border: none;
+  margin-top: 19px;
+}
 </style>
